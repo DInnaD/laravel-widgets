@@ -1,0 +1,27 @@
+{
+    "name": "DInnaD/laravel-widgets",
+    "description": "Package for using widgets in Laravel-5",
+	"type": "library",
+	"keywords": [
+        "laravel",
+        "widgets"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Inna Danylavska",
+            "email": "Innadanylevska@gmail.com",
+			"homepage": "https://github.com/DInnaD/laravel-widgets",
+			"role": "Developer"
+        }
+    ],
+	"minimum-stability": "stable",
+	"require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+			"DInnaD\\Widgets\\": "src"
+        }
+    }
+}
